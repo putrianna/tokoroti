@@ -1,0 +1,40 @@
+h1, h4{
+    color: brown;
+}
+
+.header{
+    font-size: larger;
+}
+.header h1{
+    text-align: center;
+}
+nav{
+    background-color: #d6e3ff;
+    padding: 15px;
+}
+nav a{
+    color: brown;
+}
+nav a:hover{
+    color: palevioletred;
+}
+.keranjang{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    text-align: center;
+}
+.keranjang button{
+    border: none;
+}
+.keranjang button:hover{
+    background-color: brown;
+}
+.terima{
+    background-color: green;
+    color: white;
+}
+.tolak{
+    background-color: red;
+    color: white;
+}

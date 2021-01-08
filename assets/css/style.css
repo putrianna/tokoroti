@@ -1,0 +1,161 @@
+h1, h4{
+    color: brown;
+}
+
+.header{
+    font-size: larger;
+}
+.header h1{
+    text-align: center;
+}
+nav{
+    background-color: pink;
+    padding: 15px;
+}
+nav a{
+    color: brown;
+}
+nav a:hover{
+    color: palevioletred;
+}
+.info-beli h2{
+    margin-left: 15%;
+    margin-top: 15px;
+    font-size: large;
+}
+/* Halaman Katalog */
+.katalog{
+    width:80%;
+    margin-left: 10%;
+}
+.card{
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.card p{
+    font-size: large;
+}
+.card img{
+    border: solid brown;
+}
+.card button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+.card button:hover{
+    background-color: pink;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* product detail */
+.produk_detail{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    padding: 20px;
+    overflow: auto;    
+}
+.produk_detail h2{
+    color: brown;
+}
+.desc h3{
+    color: brown;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 100px;
+    float: left;
+    padding: 25px;
+}
+.desc{
+    margin-top: 20px;
+    width: 50%;
+    float: right;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.desc td, .desc button{
+    padding: 5px;
+}
+.desc button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: brown;
+    border: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.desc button:hover, .beli:hover, .bayar button:hover{
+    background-color: palevioletred;
+}
+
+/* keranjang */
+.keranjang{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0;
+}
+.keranjang .hapus{
+    background-color: red;
+    border: none;
+    color:white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.keranjang .hapus:hover{
+    background-color: darkred;
+}
+.beli{
+    width: 30%;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.keranjang-body h2{
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-left: 5%;
+}
+
+/* bayar */
+.bayar{
+    width: 50%;
+    margin-left: 25%;
+    padding: 25px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.bayar button{
+    width: 30%;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    object-position: center;
+}
+
+.info-katalog .tambah{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    padding: 10px;
+}
+.info-katalog thead{
+    text-align: center;
+}
